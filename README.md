@@ -41,7 +41,7 @@ This repository contains a C++ implementation of spectral graph partitioning. Th
 Ensure that the Eigen library is installed on your system and update the include path accordingly. Compile the project using the following command:
 
 ```bash
-g++ -std=c++17 -fopenmp main.cpp io_operations.cpp laplacian_eigen.cpp spectral_operations.cpp -o spectral_partitioning
+make
 
 ./spectral_partitioning
 ```
