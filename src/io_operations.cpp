@@ -1,9 +1,9 @@
-#include "io_operations.h"
+#include "../include/io_operations.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include <cmath>
-#include "graph_partition.h"
+#include "../include/graph_partition.h"
 
 Eigen::MatrixXd readAdjacencyMatrix(const std::string& filename) {
     std::ifstream file(filename);

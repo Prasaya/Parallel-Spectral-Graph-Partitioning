@@ -1,5 +1,5 @@
-#include "spectral_operations.h"
-#include "laplacian_eigen.h"
+#include "../include/spectral_operations.h"
+#include "../include/laplacian_eigen.h"
 #include <algorithm>
 #include <omp.h>
 

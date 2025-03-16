@@ -1,4 +1,4 @@
-#include "laplacian_eigen.h"
+#include "../include/laplacian_eigen.h"
 #include <iostream>
 #include <cstdlib>
 #include <eigen3/Eigen/Eigenvalues>

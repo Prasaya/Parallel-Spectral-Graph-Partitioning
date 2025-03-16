@@ -1,9 +1,9 @@
 #include <iostream>
 #include <omp.h>
-#include "io_operations.h"
-#include "spectral_operations.h"
+#include "include/io_operations.h"
+#include "include/spectral_operations.h"
 #include <eigen3/Eigen/Dense>
-#include "config.h"
+#include "include/config.h"
 
 int main(int argc, char* argv[]) {
     std::string input_file = INPUT_FILE;
